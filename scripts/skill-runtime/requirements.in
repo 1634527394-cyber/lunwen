@@ -1,0 +1,7 @@
+-r ../../.agents/skills/nature-academic-search/mcp-server/requirements.txt
+-r ../../.agents/skills/nature-image2ppt/requirements.txt
+-r ../../.agents/skills/nature-paper-to-patent/requirements.txt
+-r ../../.agents/skills/nature-downloader/requirements.txt
+-r ../../.agents/skills/nature-figure/requirements.txt
+-r ../../.agents/skills/nature-paper-trans/requirements.txt
+pytest>=8.4,<10

@@ -1,0 +1,6 @@
+[mcp_servers.academic-search]
+command = "/workspace/.venvs/lunwen-skills/bin/python"
+args = ["-B", "/workspace/lunwen/scripts/skill-runtime/academic_search_server.py"]
+startup_timeout_sec = 30
+tool_timeout_sec = 90
+env_vars = ["HTTPS_PROXY", "HTTP_PROXY", "ALL_PROXY", "NO_PROXY", "REQUESTS_CA_BUNDLE", "SSL_CERT_FILE", "PUBMED_EMAIL", "NCBI_API_KEY"]
